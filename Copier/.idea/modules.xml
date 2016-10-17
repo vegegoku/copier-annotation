@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Copier.iml" filepath="$PROJECT_DIR$/Copier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/copier-annotation-processor/copier-annotation-processor.iml" filepath="$PROJECT_DIR$/copier-annotation-processor/copier-annotation-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/copier-annotations/copier-annotations.iml" filepath="$PROJECT_DIR$/copier-annotations/copier-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/copier-test-client/copier-test-client.iml" filepath="$PROJECT_DIR$/copier-test-client/copier-test-client.iml" />
+    </modules>
+  </component>
+</project>

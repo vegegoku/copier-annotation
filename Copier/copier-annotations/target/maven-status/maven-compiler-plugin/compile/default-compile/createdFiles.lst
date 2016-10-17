@@ -1,0 +1,5 @@
+com/progressoft/annotation/processor/IgnoreCopy.class
+com/progressoft/annotation/processor/WithCopier$Mode.class
+com/progressoft/annotation/processor/WithCopier.class
+com/progressoft/annotation/processor/CollectionCopy.class
+com/progressoft/annotation/processor/DeepCopy.class

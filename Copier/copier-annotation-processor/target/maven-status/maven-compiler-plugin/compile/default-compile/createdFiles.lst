@@ -1,0 +1,6 @@
+com/progressoft/annotation/processor/CopierAnnotationProcessor.class
+com/progressoft/annotation/processor/CopierAnnotationProcessor$FieldsCopyStatementGenerator.class
+META-INF/services/javax.annotation.processing.Processor
+com/progressoft/annotation/processor/CopierAnnotationProcessor$2.class
+com/progressoft/annotation/processor/CopierAnnotationProcessor$1.class
+com/progressoft/annotation/processor/ProcessingException.class
