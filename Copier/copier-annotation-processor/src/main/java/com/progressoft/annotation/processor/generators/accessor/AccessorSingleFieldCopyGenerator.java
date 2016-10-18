@@ -1,12 +1,13 @@
-package com.progressoft.annotation.processor;
+package com.progressoft.annotation.processor.generators.accessor;
 
+import com.progressoft.annotation.processor.generators.FieldsCopyStatementGenerator;
 import com.progressoft.annotation.processor.copier.DeepCopy;
 import org.apache.commons.lang.WordUtils;
 
 import javax.lang.model.element.Element;
 import java.util.Objects;
 
-public class AccessorSingleFieldCopyGenerator implements FieldsCopyStatementGenerator{
+public class AccessorSingleFieldCopyGenerator implements FieldsCopyStatementGenerator {
 
     @Override
     public String generate(Element element) {

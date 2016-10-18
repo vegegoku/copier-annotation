@@ -1,4 +1,4 @@
-package com.progressoft.annotation.processor;
+package com.progressoft.annotation.processor.generators;
 
 import com.progressoft.annotation.processor.copier.CollectionCopy;
 import org.apache.commons.lang.WordUtils;

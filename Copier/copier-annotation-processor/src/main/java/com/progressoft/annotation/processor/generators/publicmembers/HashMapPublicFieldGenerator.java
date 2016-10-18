@@ -1,5 +1,6 @@
-package com.progressoft.annotation.processor;
+package com.progressoft.annotation.processor.generators.publicmembers;
 
+import com.progressoft.annotation.processor.generators.FieldsCopyStatementGenerator;
 import com.progressoft.annotation.processor.copier.DeepCopy;
 
 import javax.lang.model.element.Element;
