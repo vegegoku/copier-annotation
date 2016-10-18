@@ -64,5 +64,4 @@ public class FieldCopyStatementFactory {
     private static boolean isCollection(Element element) {
         return Objects.nonNull(element.getAnnotation(CollectionCopy.class));
     }
-
 }
