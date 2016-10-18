@@ -12,7 +12,7 @@ import java.io.InputStream;
 import static com.google.testing.compile.JavaSourceSubjectFactory.javaSource;
 import static com.progressoft.annotation.processor.test.ProcessorAssert.*;
 
-public class AnnotationProcessorTest {
+public class CopierAnnotationProcessorTest {
 
     @Before
     public void setUp() throws Exception {
