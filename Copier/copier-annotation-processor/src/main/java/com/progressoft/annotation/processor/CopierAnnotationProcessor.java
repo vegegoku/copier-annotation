@@ -141,8 +141,10 @@ public class CopierAnnotationProcessor extends AbstractProcessor {
 
     private void generatedCopStatements(TypeElement annotatedClassElement, StringBuilder sb) {
         for (Element element : annotatedClassElement.getEnclosedElements())
-            if (element.getKind() == ElementKind.FIELD && notIgnored(element))
+            if (element.getKind() == ElementKind.FIELD && notIgnored(element)) {
+                System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>  "+element.asType().toString());
                 sb.append(FieldCopyStatementFactory.getGenerator(annotatedClassElement, element).generate(element));
+            }
     }
 
     private boolean notIgnored(Element element) {

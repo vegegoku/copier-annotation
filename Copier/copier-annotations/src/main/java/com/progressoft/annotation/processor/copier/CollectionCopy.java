@@ -17,7 +17,4 @@ public @interface CollectionCopy {
 
     @NotNull
     String initializer();
-
-    @NotNull
-    String genericType();
 }

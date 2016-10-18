@@ -1,6 +1,8 @@
 package com.progressoft.annotation.processor.copier;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 @WithCopier
 public class AnnotatedClassWithCollections {
@@ -12,20 +14,20 @@ public class AnnotatedClassWithCollections {
         }
     }
 
-    @CollectionCopy(initializer = CollectionCopy.ARRAY_LIST, genericType = "com.progressoft.annotation.processor.copier.AnnotatedClassWithCollections.AnotherObject")
+    @CollectionCopy(initializer = CollectionCopy.ARRAY_LIST)
     @DeepCopy
     private List<AnotherObject> anotherObjects;
 
-    @CollectionCopy(initializer = CollectionCopy.ARRAY_LIST, genericType = "java.lang.Integer")
+    @CollectionCopy(initializer = CollectionCopy.ARRAY_LIST)
     private List<Integer> integersList;
 
-    @CollectionCopy(initializer = CollectionCopy.HASH_MAP, genericType = "java.lang.String,java.lang.String")
+    @CollectionCopy(initializer = CollectionCopy.HASH_MAP)
     private Map<String, String> stringsMap;
 
-    @CollectionCopy(initializer = CollectionCopy.HASH_SET, genericType = "java.lang.String")
+    @CollectionCopy(initializer = CollectionCopy.HASH_SET)
     private Set<String> stringsSet;
 
-    @CollectionCopy(initializer = CollectionCopy.LINKED_LIST, genericType = "java.lang.String")
+    @CollectionCopy(initializer = CollectionCopy.LINKED_LIST)
     private List<String> linkedList;
 
     public List<AnotherObject> getAnotherObjects() {

@@ -1,17 +1,17 @@
 package com.progressoft.annotation.processor.copier;
 
+import com.google.common.truth.Truth;
+import com.google.testing.compile.JavaFileObjects;
 import com.progressoft.annotation.processor.CopierAnnotationProcessor;
 import org.apache.commons.io.IOUtils;
 import org.junit.Before;
 import org.junit.Test;
-import com.google.common.truth.Truth;
-import com.google.testing.compile.JavaFileObjects;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 import static com.google.testing.compile.JavaSourceSubjectFactory.javaSource;
-import static com.progressoft.annotation.processor.test.ProcessorAssert.*;
+import static com.progressoft.annotation.processor.test.ProcessorAssert.assertProcessing;
 
 public class CopierAnnotationProcessorTest {
 
@@ -93,6 +93,18 @@ public class CopierAnnotationProcessorTest {
         assertProcessing("com/progressoft/annotation/processor/copier/AnnotatedClassWithCollections.java")
                 .withProcessor(new CopierAnnotationProcessor())
                 .generates(getExpectedResultFileContent("AnnotatedClassWithCollectionsCopier.java"));
+
+        assertProcessing("com/progressoft/annotation/processor/copier/AnnotatedClassWithPublicCollections.java")
+                .withProcessor(new CopierAnnotationProcessor())
+                .generates(getExpectedResultFileContent("AnnotatedClassWithPublicCollectionsCopier.java"));
+    }
+
+    @Test
+    public void givenAClassAnnotatedAsWithCopierAndHasvariablesAndCollectionFields_shouldGenerateCopierProperVariablsAndCollectionCopying() throws Exception {
+        assertProcessing("com/progressoft/annotation/processor/copier/AnnotatedClassWithVariablesAndCollection.java")
+                .withProcessor(new CopierAnnotationProcessor())
+                .generates(getExpectedResultFileContent("AnnotatedClassWithVariablesAndCollectionCopier.java"));
+
     }
 
     private String getExpectedResultFileContent(String resourceName) throws IOException{

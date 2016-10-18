@@ -18,10 +18,6 @@ public interface FieldsCopyStatementGenerator {
     }
 
     default String getGenericType(Element element){
-        if(Objects.nonNull(element.getAnnotation(CollectionCopy.class))){
-            return element.getAnnotation(CollectionCopy.class).genericType();
-        }else{
-            return "";
-        }
+        return element.asType().toString().substring(element.asType().toString().indexOf("<")+1, element.asType().toString().lastIndexOf(">"));
     }
 }
