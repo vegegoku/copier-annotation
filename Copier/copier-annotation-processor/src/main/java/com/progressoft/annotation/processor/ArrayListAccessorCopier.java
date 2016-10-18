@@ -1,11 +1,9 @@
 package com.progressoft.annotation.processor;
 
-import org.apache.commons.lang.WordUtils;
+import com.progressoft.annotation.processor.copier.DeepCopy;
 
 import javax.lang.model.element.Element;
-import javax.lang.model.element.VariableElement;
 import java.util.Objects;
-import java.util.StringTokenizer;
 
 public class ArrayListAccessorCopier implements FieldsCopyStatementGenerator {
 

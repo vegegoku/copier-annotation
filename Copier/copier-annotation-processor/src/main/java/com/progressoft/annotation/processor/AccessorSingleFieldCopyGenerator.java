@@ -1,5 +1,6 @@
 package com.progressoft.annotation.processor;
 
+import com.progressoft.annotation.processor.copier.DeepCopy;
 import org.apache.commons.lang.WordUtils;
 
 import javax.lang.model.element.Element;

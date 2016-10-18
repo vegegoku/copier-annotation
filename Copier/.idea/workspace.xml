@@ -2,8 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3cf138-9073-4dd4-bcee-109e1dbb5b9e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/AnnotationProcessorTest.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/CopierAnnotationProcessorTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/CopierAnnotationProcessor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/CopierAnnotationProcessor$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/CopierAnnotationProcessor$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithCollections.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithDeepCopyField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithDeepCopyPublicField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithFields2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithFields3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithFields4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithIgnoredFieldUsingAccessors.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithPublicMemebersAndNoAccessories.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotatedClassWithSingleField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/AnnotationProcessorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/EmptyAnnotatedClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/NoneAnnotatedSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/SecondEmptyAnnotatedClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithCollectionsCopier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithDeepCopyFieldCopier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithFields2Copier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithFields3Copier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithFields4Copier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/AnnotatedClassWithSingleFieldCopier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/EmptyAnnotatedClassResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/results/SecondEmptyAnnotatedClassResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotations/target/classes/com/progressoft/annotation/processor/CollectionCopy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotations/target/classes/com/progressoft/annotation/processor/DeepCopy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotations/target/classes/com/progressoft/annotation/processor/IgnoreCopy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotations/target/classes/com/progressoft/annotation/processor/WithCopier$Mode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/copier-annotations/target/classes/com/progressoft/annotation/processor/WithCopier.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/CopierAnnotationProcessorTest.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/copier/CopierAnnotationProcessorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithCollections.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithCollections.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithDeepCopyField.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithDeepCopyPublicField.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyPublicField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithFields2.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithFields3.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithFields4.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields4.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithIgnoredFieldUsingAccessors.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithPublicMemebersAndNoAccessories.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithPublicMemebersAndNoAccessories.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithSingleField.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithSingleField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/EmptyAnnotatedClass.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/EmptyAnnotatedClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/NoneAnnotatedSource.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/NoneAnnotatedSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/SecondEmptyAnnotatedClass.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/SecondEmptyAnnotatedClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithCollectionsCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithCollectionsCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithDeepCopyFieldCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields2Copier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields2Copier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields3Copier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields3Copier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields4Copier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields4Copier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithSingleFieldCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/EmptyAnnotatedClassResult.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/EmptyAnnotatedClassResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/SecondEmptyAnnotatedClassResult.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/SecondEmptyAnnotatedClassResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/CollectionCopy.java" afterPath="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/CollectionCopy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/DeepCopy.java" afterPath="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/DeepCopy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/IgnoreCopy.java" afterPath="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/IgnoreCopy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/WithCopier.java" afterPath="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/WithCopier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/AccessorSingleFieldCopyGenerator.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/AccessorSingleFieldCopyGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/ArrayListAccessorCopier.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/ArrayListAccessorCopier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/ArrayListPublicFieldGenerator.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/ArrayListPublicFieldGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/CopierAnnotationProcessor.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/CopierAnnotationProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/FieldsCopyStatementGenerator.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/FieldsCopyStatementGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/HashMapAccessorCopier.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/HashMapAccessorCopier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/HashMapPublicFieldGenerator.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/HashMapPublicFieldGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/HashSetAccessorCopier.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/HashSetAccessorCopier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/HashSetPublicFieldGenerator.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/HashSetPublicFieldGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/LinkedListAccessorCopier.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/LinkedListAccessorCopier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/LinkedListPublicFieldGenerator.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/LinkedListPublicFieldGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/SimplePublicFieldCopyGenerator.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/SimplePublicFieldCopyGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-test-client/target/classes/com/progressoft/annotation/processor/AnnotatedClassWithFields4.class" afterPath="$PROJECT_DIR$/copier-test-client/target/classes/com/progressoft/annotation/processor/AnnotatedClassWithFields4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-test-client/target/classes/com/progressoft/annotation/processor/SimpleClass.class" afterPath="$PROJECT_DIR$/copier-test-client/target/classes/com/progressoft/annotation/processor/SimpleClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-test-client/target/classes/com/progressoft/annotation/processor/SimpleClassX.class" afterPath="$PROJECT_DIR$/copier-test-client/target/classes/com/progressoft/annotation/processor/SimpleClassX.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/AccessorSingleFieldCopyGenerator.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/AccessorSingleFieldCopyGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/ArrayListAccessorCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/ArrayListAccessorCopier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/ArrayListPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/ArrayListPublicFieldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/FieldCopyStatementFactory.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/FieldCopyStatementFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/FieldsCopyStatementGenerator.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/FieldsCopyStatementGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashMapAccessorCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashMapAccessorCopier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashMapPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashMapPublicFieldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashSetAccessorCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashSetAccessorCopier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashSetPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashSetPublicFieldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/LinkedListAccessorCopier.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/LinkedListAccessorCopier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/LinkedListPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/LinkedListPublicFieldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/SimplePublicFieldCopyGenerator.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/SimplePublicFieldCopyGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-test-client/src/main/java/com/progressoft/annotation/processor/AnnotatedClassWithFields4.java" afterPath="$PROJECT_DIR$/copier-test-client/src/main/java/com/progressoft/annotation/processor/AnnotatedClassWithFields4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-test-client/src/main/java/com/progressoft/annotation/processor/SimpleClass.java" afterPath="$PROJECT_DIR$/copier-test-client/src/main/java/com/progressoft/annotation/processor/SimpleClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-test-client/src/main/java/com/progressoft/annotation/processor/SimpleClassX.java" afterPath="$PROJECT_DIR$/copier-test-client/src/main/java/com/progressoft/annotation/processor/SimpleClassX.java" />
     </list>
     <ignored path="Copier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,33 +122,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HashSetAccessorCopier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashSetAccessorCopier.java">
+      <file leaf-file-name="AnnotatedClassWithFields4Copier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields4Copier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="38">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CopierAnnotationProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java">
+      <file leaf-file-name="AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1321">
-              <caret line="144" column="91" selection-start-line="144" selection-start-column="89" selection-end-line="144" selection-end-column="91" />
+            <state relative-caret-position="0">
+              <caret line="0" column="51" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedClassWithIgnoredFieldUsingPublicFields.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedClassWithIgnoredFieldUsingAccessors.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopierAnnotationProcessorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/copier/CopierAnnotationProcessorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,97 +174,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnnotatedClassWithCollections.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithCollections.java">
+      <file leaf-file-name="AnnotatedClassWithDeepCopyFieldCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-              <folding>
-                <element signature="e#1138#1139#0" expanded="false" />
-                <element signature="e#1175#1176#0" expanded="false" />
-                <element signature="e#1248#1249#0" expanded="false" />
-                <element signature="e#1300#1301#0" expanded="false" />
-                <element signature="e#1346#1347#0" expanded="false" />
-                <element signature="e#1381#1382#0" expanded="false" />
-                <element signature="e#1444#1445#0" expanded="false" />
-                <element signature="e#1492#1493#0" expanded="false" />
-                <element signature="e#1542#1543#0" expanded="false" />
-                <element signature="e#1575#1576#0" expanded="false" />
-                <element signature="e#1640#1641#0" expanded="false" />
-                <element signature="e#1684#1685#0" expanded="false" />
-                <element signature="e#1726#1727#0" expanded="false" />
-                <element signature="e#1759#1760#0" expanded="false" />
-                <element signature="e#1816#1817#0" expanded="false" />
-                <element signature="e#1860#1861#0" expanded="false" />
-                <element signature="e#1903#1904#0" expanded="false" />
-                <element signature="e#1936#1937#0" expanded="false" />
-                <element signature="e#1994#1995#0" expanded="false" />
-                <element signature="e#2038#2039#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedClassWithDeepCopyPublicField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyPublicField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedClassWithDeepCopyPublicFieldCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AnnotatedClassWithCollectionsCopier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithCollectionsCopier.java">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithCollectionsCopier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoneAnnotatedSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/NoneAnnotatedSource.java">
+      <file leaf-file-name="AnnotatedClassWithCollections.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithCollections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="14" column="119" selection-start-line="14" selection-start-column="119" selection-end-line="14" selection-end-column="119" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyAnnotatedClassResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/EmptyAnnotatedClassResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyAnnotatedClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/EmptyAnnotatedClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FieldCopyStatementFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/FieldCopyStatementFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CopierAnnotationProcessorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/CopierAnnotationProcessorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -184,33 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/copier-test-client/target/generated-sources/annotations/com/progressoft/annotation/processor/SimpleClassCopier.java" />
-        <option value="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/WithCopier.java" />
-        <option value="$PROJECT_DIR$/copier-test-client/src/main/java/com/progressoft/annotation/processor/SimpleClass.java" />
-        <option value="$PROJECT_DIR$/copier-test-client/src/main/java/com/progressoft/annotation/processor/SimpleClassX.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithFields2.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithFields3.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithFields4.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithPublicMemebersAndNoAccessories.java" />
-        <option value="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/IgnoreCopy.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithIgnoredFieldUsingAccessors.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoreFieldUsingAccessorCopier.java" />
-        <option value="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/DeepCopy.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithDeepCopyField.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithDeepCopyPublicField.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithSingleField.java" />
-        <option value="$PROJECT_DIR$/copier-annotations/pom.xml" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/AccessorSingleFieldCopyGenerator.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/SimplePublicFieldCopyGenerator.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithDeepCopyFieldCopier.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields2Copier.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields3Copier.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields4Copier.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" />
-        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" />
         <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithSingleFieldCopier.java" />
         <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/EmptyAnnotatedClassResult.java" />
         <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/SecondEmptyAnnotatedClassResult.java" />
@@ -235,6 +275,33 @@
         <option value="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" />
         <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/AnnotationProcessorTest.java" />
         <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/CopierAnnotationProcessorTest.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/copier/CopierAnnotationProcessorTest.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyField.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyPublicField.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields2.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields3.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields4.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithPublicMemebersAndNoAccessories.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithSingleField.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/EmptyAnnotatedClass.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/NoneAnnotatedSource.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/SecondEmptyAnnotatedClass.java" />
+        <option value="$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/WithCopier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields2Copier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields3Copier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/EmptyAnnotatedClassResult.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/SecondEmptyAnnotatedClassResult.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields4Copier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithCollections.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithCollectionsCopier.java" />
+        <option value="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" />
       </list>
     </option>
   </component>
@@ -362,7 +429,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="copier-annotation-processor" />
+              <option name="myItemId" value="copier-annotations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,17 +443,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="copier-annotation-processor" />
+              <option name="myItemId" value="copier-annotations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -398,37 +461,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="copier-annotation-processor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="processor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Copier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Copier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="copier-annotation-processor" />
+              <option name="myItemId" value="copier-annotations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -444,7 +477,133 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="processor" />
+              <option name="myItemId" value="copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copier-annotation-processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copier-annotation-processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copier-annotation-processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copier-annotation-processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copier-annotation-processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,8 +622,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.progressoft.annotation.processor" />
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="com.progressoft.annotation.processor.CopierAnnotationProcessor" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.progressoft.annotation.processor" />
@@ -472,14 +631,16 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.progressoft.annotation.processor" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier" />
       <recent name="$PROJECT_DIR$/copier-annotation-processor/src/test/resources" />
       <recent name="$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor" />
       <recent name="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor" />
       <recent name="$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.progressoft.annotation.processor.copier" />
+      <recent name="com.progressoft.annotation.processor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor" />
@@ -491,23 +652,23 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.progressoft.annotation.processor" />
     </key>
-    <key name="IntroduceConstantDialog.RECENTS_KEY">
-      <recent name="com.progressoft.annotation.processor.CopierAnnotationProcessor" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.progressoft.annotation.processor" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CopierAnnotationProcessorTest">
     <configuration default="false" name="CopierAnnotationProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.progressoft.annotation.processor.results.*" />
+          <option name="PATTERN" value="com.progressoft.annotation.processor.copier.results.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="copier-annotation-processor" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.progressoft.annotation.processor" />
-      <option name="MAIN_CLASS_NAME" value="com.progressoft.annotation.processor.CopierAnnotationProcessorTest" />
+      <option name="PACKAGE_NAME" value="com.progressoft.annotation.processor.copier" />
+      <option name="MAIN_CLASS_NAME" value="com.progressoft.annotation.processor.copier.CopierAnnotationProcessorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -525,15 +686,15 @@
     <configuration default="false" name="CopierAnnotationProcessorTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.progressoft.annotation.processor.results.*" />
+          <option name="PATTERN" value="com.progressoft.annotation.processor.copier.results.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="copier-annotation-processor" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.progressoft.annotation.processor" />
-      <option name="MAIN_CLASS_NAME" value="com.progressoft.annotation.processor.CopierAnnotationProcessorTest" />
+      <option name="PACKAGE_NAME" value="com.progressoft.annotation.processor.copier" />
+      <option name="MAIN_CLASS_NAME" value="com.progressoft.annotation.processor.copier.CopierAnnotationProcessorTest" />
       <option name="METHOD_NAME" value="name" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -551,7 +712,7 @@
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.progressoft.annotation.processor.*" />
+          <option name="PATTERN" value="com.progressoft.annotation.processor.copier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -843,57 +1004,66 @@
       <option name="project" value="LOCAL" />
       <updated>1476773274379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactoring">
+      <created>1476786558802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1476786558802</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 18h 01m 38s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 13h 30m 52s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 18h 11m 52s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 13h 32m 09s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 18h 22m 17s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 13h 33m 27s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 18h 23m 48s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 13h 35m 35s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 18h 25m 12s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 13h 37m 59s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 20h 28m 47s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 13h 40m 26s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 20h 31m 05s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 13h 41m 31s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 20h 34m 39s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 13h 42m 44s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 20h 36m 23s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 14h 48m 57s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationProcessorTest - 2016.10.17 at 20h 47m 40s.xml">
-      <configuration name="AnnotationProcessorTest" configurationId="JUnit" />
+    <history-entry file="CopierAnnotationProcessorTest - 2016.10.18 at 14h 49m 58s.xml">
+      <configuration name="CopierAnnotationProcessorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.49806523" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32324323" sideWeight="0.50193477" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42088607" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4208243" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.49806523" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27529022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27529022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -903,10 +1073,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.49806523" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -965,162 +1133,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Cloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/SecondEmptyAnnotatedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/CloneNotSupportedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithDeepCopyPublicField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotations/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/DeepCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithDeepCopyField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithSingleField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithDeepCopyFieldCopier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields2Copier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields3Copier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithFields4Copier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithSingleFieldCopier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/SecondEmptyAnnotatedClassResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/ProcessingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/SimplePublicFieldCopyGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/AnnotatedClassWithCollectionsCopier.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/javax/lang/model/util/Types.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="235" column="54" selection-start-line="235" selection-start-column="44" selection-end-line="235" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/javax/lang/model/element/VariableElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-610">
@@ -1170,18 +1182,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/CollectionCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/HashSetPublicFieldGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,6 +1194,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,6 +1202,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,84 +1297,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/AnnotatedClassWithCollections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding>
-            <element signature="e#1138#1139#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1248#1249#0" expanded="false" />
-            <element signature="e#1300#1301#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="false" />
-            <element signature="e#1381#1382#0" expanded="false" />
-            <element signature="e#1444#1445#0" expanded="false" />
-            <element signature="e#1492#1493#0" expanded="false" />
-            <element signature="e#1542#1543#0" expanded="false" />
-            <element signature="e#1575#1576#0" expanded="false" />
-            <element signature="e#1640#1641#0" expanded="false" />
-            <element signature="e#1684#1685#0" expanded="false" />
-            <element signature="e#1726#1727#0" expanded="false" />
-            <element signature="e#1759#1760#0" expanded="false" />
-            <element signature="e#1816#1817#0" expanded="false" />
-            <element signature="e#1860#1861#0" expanded="false" />
-            <element signature="e#1903#1904#0" expanded="false" />
-            <element signature="e#1936#1937#0" expanded="false" />
-            <element signature="e#1994#1995#0" expanded="false" />
-            <element signature="e#2038#2039#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/AnnotatedClassWithCollectionsCopier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/NoneAnnotatedSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/EmptyAnnotatedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/results/EmptyAnnotatedClassResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1321">
           <caret line="144" column="91" selection-start-line="144" selection-start-column="89" selection-end-line="144" selection-end-column="91" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/CollectionCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/DeepCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/IgnoreCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/WithCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithPublicMemebersAndNoAccessories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithSingleField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/EmptyAnnotatedClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/NoneAnnotatedSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/SecondEmptyAnnotatedClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields2Copier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields3Copier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/EmptyAnnotatedClassResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/SecondEmptyAnnotatedClassResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields4Copier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="119" selection-start-line="14" selection-start-column="119" selection-end-line="14" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithCollectionsCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyPublicField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/copier/CopierAnnotationProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/CopierAnnotationProcessorTest.java">
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copier-annotation-processor/src/test/resources/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

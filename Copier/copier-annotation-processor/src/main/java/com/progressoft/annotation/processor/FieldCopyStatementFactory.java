@@ -1,5 +1,8 @@
 package com.progressoft.annotation.processor;
 
+import com.progressoft.annotation.processor.copier.CollectionCopy;
+import com.progressoft.annotation.processor.copier.WithCopier;
+
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import java.util.HashMap;

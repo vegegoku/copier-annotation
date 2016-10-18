@@ -1,27 +1,24 @@
 package com.progressoft.annotation.processor;
 
 import com.google.auto.service.AutoService;
+import com.progressoft.annotation.processor.copier.IgnoreCopy;
+import com.progressoft.annotation.processor.copier.WithCopier;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.TypeElement;
-import javax.lang.model.element.VariableElement;
-import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
 import java.io.IOException;
 import java.io.Writer;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
 import java.util.Set;
 
 @AutoService(value = Processor.class)
-@SupportedAnnotationTypes(value = "com.progressoft.annotation.processor.WithCopier")
+@SupportedAnnotationTypes(value = "com.progressoft.annotation.processor.copier.WithCopier")
 @SupportedSourceVersion(value = SourceVersion.RELEASE_8)
 public class CopierAnnotationProcessor extends AbstractProcessor {
 

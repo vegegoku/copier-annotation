@@ -1,5 +1,7 @@
 package com.progressoft.annotation.processor;
 
+import com.progressoft.annotation.processor.copier.WithCopier;
+
 @WithCopier
 public class SimpleClassX implements Cloneable{
 

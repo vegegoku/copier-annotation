@@ -1,5 +1,7 @@
 package com.progressoft.annotation.processor;
 
+import com.progressoft.annotation.processor.copier.DeepCopy;
+
 import javax.lang.model.element.Element;
 import java.util.Objects;
 
