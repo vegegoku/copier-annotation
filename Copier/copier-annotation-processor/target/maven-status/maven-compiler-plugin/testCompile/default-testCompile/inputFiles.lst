@@ -1,4 +1,1 @@
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/TargetProcessor.java
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/AnnotationProcessorTest.java
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/InputSource.java
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/ProcessorAssert.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/test/java/com/progressoft/annotation/processor/copier/CopierAnnotationProcessorTest.java

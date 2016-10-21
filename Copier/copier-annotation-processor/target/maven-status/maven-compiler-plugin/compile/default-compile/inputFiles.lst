@@ -1,2 +1,15 @@
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/ProcessingException.java
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/FieldsCopyStatementGenerator.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/publicmembers/ArrayListPublicFieldGenerator.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/accessor/LinkedListAccessorCopier.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/accessor/HashSetAccessorCopier.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/publicmembers/SimplePublicFieldCopyGenerator.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/publicmembers/HashMapPublicFieldGenerator.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/ProcessingException.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/accessor/ArrayListAccessorCopier.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/accessor/AccessorSingleFieldCopyGenerator.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/ProcessorElement.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/accessor/HashMapAccessorCopier.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/publicmembers/LinkedListPublicFieldGenerator.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/FieldCopyStatementFactory.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/generators/publicmembers/HashSetPublicFieldGenerator.java

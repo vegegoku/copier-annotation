@@ -1,4 +1,1 @@
-com/progressoft/annotation/processor/AnnotationProcessorTest.class
-com/progressoft/annotation/processor/ProcessorAssert.class
-com/progressoft/annotation/processor/InputSource.class
-com/progressoft/annotation/processor/TargetProcessor.class
+com/progressoft/annotation/processor/copier/CopierAnnotationProcessorTest.class

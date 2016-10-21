@@ -1,4 +1,4 @@
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotations/src/main/java/com/progressoft/annotation/processor/DeepCopy.java
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotations/src/main/java/com/progressoft/annotation/processor/IgnoreCopy.java
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotations/src/main/java/com/progressoft/annotation/processor/WithCopier.java
-/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/Copier/copier-annotations/src/main/java/com/progressoft/annotation/processor/CollectionCopy.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/DeepCopy.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/CollectionCopy.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/IgnoreCopy.java
+/mnt/692b366d-4793-409c-8c23-4ca63aed1d18/GIT/copier-annotation/Copier/copier-annotations/src/main/java/com/progressoft/annotation/processor/copier/WithCopier.java

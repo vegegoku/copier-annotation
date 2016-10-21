@@ -1,5 +1,9 @@
 package com.progressoft.annotation.processor.copier;
 
+import java.util.List;
+
+import com.progressoft.annotation.processor.copier.AnnotatedClassWithVariablesAndCollection;
+
 class AnnotatedClassWithVariablesAndCollectionCopier{
 
     AnnotatedClassWithVariablesAndCollection copy(AnnotatedClassWithVariablesAndCollection original) throws CloneNotSupportedException{
@@ -10,7 +14,7 @@ class AnnotatedClassWithVariablesAndCollectionCopier{
 
         if(java.util.Objects.nonNull(original.samples)){
             result.samples=new java.util.ArrayList<>();
-            for (com.progressoft.annotation.processor.copier.AnnotatedClassWithVariablesAndCollection item :original.samples) {
+            for (AnnotatedClassWithVariablesAndCollection item :original.samples) {
                 result.samples.add(item.clone());
             }
         }

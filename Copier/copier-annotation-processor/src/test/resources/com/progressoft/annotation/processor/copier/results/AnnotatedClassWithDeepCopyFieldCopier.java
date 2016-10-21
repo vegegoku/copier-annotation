@@ -1,5 +1,7 @@
 package com.progressoft.annotation.processor.copier;
 
+import com.progressoft.annotation.processor.copier.AnnotatedClassWithDeepCopyField.AnotherObject;
+
 class AnnotatedClassWithDeepCopyFieldCopier {
 
     AnnotatedClassWithDeepCopyField copy(AnnotatedClassWithDeepCopyField original) throws CloneNotSupportedException {

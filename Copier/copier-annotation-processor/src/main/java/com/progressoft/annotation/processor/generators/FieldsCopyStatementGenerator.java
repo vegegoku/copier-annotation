@@ -1,6 +1,7 @@
 package com.progressoft.annotation.processor.generators;
 
 import com.progressoft.annotation.processor.copier.CollectionCopy;
+import com.progressoft.annotations.processing.ProcessorElement;
 import org.apache.commons.lang.WordUtils;
 
 import javax.lang.model.element.Element;
@@ -18,6 +19,7 @@ public interface FieldsCopyStatementGenerator {
     }
 
     default String getGenericType(Element element){
-        return element.asType().toString().substring(element.asType().toString().indexOf("<")+1, element.asType().toString().lastIndexOf(">"));
+        String simpleType=new ProcessorElement(element).asSimpleType();
+        return simpleType.substring(simpleType.indexOf("<")+1, simpleType.lastIndexOf(">"));
     }
 }

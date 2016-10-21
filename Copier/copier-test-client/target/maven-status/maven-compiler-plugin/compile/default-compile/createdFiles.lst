@@ -1,9 +1,12 @@
 com/progressoft/annotation/processor/Test$TestCollection.class
 com/progressoft/annotation/processor/Test.class
 com/progressoft/annotation/processor/SimpleClassX.class
+com/progressoft/annotation/processor/AnnotatedClassWithVariablesAndCollectionCopier.class
 com/progressoft/annotation/processor/SimpleClass.class
 com/progressoft/annotation/processor/Test$1.class
 com/progressoft/annotation/processor/SimpleClassXCopier.class
 com/progressoft/annotation/processor/SimpleClassCopier.class
 com/progressoft/annotation/processor/AnnotatedClassWithFields4Copier.class
 com/progressoft/annotation/processor/AnnotatedClassWithFields4.class
+com/progressoft/annotation/processor/AnnotatedClassWithVariablesAndCollection.class
+com/progressoft/annotation/processor/Test$TestCollection$SomeObject.class

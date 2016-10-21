@@ -5,16 +5,15 @@ import com.progressoft.annotation.processor.copier.IgnoreCopy;
 import com.progressoft.annotation.processor.copier.WithCopier;
 import com.progressoft.annotation.processor.generators.FieldCopyStatementFactory;
 import com.progressoft.annotation.processor.generators.FieldsCopyStatementGenerator;
+import com.progressoft.annotations.processing.JfwProcessor;
+import com.progressoft.annotations.processing.ProcessorElement;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.TypeElement;
-import javax.lang.model.util.Elements;
-import javax.lang.model.util.Types;
 import javax.tools.Diagnostic;
-import javax.tools.JavaFileObject;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.Objects;
@@ -23,41 +22,21 @@ import java.util.Set;
 @AutoService(value = Processor.class)
 @SupportedAnnotationTypes(value = "com.progressoft.annotation.processor.copier.WithCopier")
 @SupportedSourceVersion(value = SourceVersion.RELEASE_8)
-public class CopierAnnotationProcessor extends AbstractProcessor {
-
-    private Types typesUtil;
-    private Elements elementsUtil;
-    private Filer filer;
-    private Messager messager;
-
-    @Override
-    public synchronized void init(ProcessingEnvironment processingEnv) {
-        super.init(processingEnv);
-        this.typesUtil = processingEnv.getTypeUtils();
-        this.elementsUtil = processingEnv.getElementUtils();
-        this.filer = processingEnv.getFiler();
-        this.messager = processingEnv.getMessager();
-    }
+public class CopierAnnotationProcessor extends JfwProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
 
         for (Element element : roundEnv.getElementsAnnotatedWith(WithCopier.class)) {
-            validateElementKind(element);
+            validateElementKind(element, ElementKind.CLASS);
             generateCopier(new ProcessorElement(element));
         }
         return true;
     }
 
-    private void validateElementKind(Element element) {
-        if (element.getKind() != ElementKind.CLASS)
-            throw new ProcessingException(element, "Only classes can be annotated with @%s",
-                    WithCopier.class.getSimpleName());
-    }
 
     private void generateCopier(ProcessorElement processorElement) {
-
-        try (Writer sourceWriter = obtainSourceWriter(processorElement.simpleName(), processorElement.elementPackage())) {
+        try (Writer sourceWriter = obtainSourceWriter(processorElement.elementPackage(), processorElement.simpleName()+ FieldsCopyStatementGenerator.COPIER_POSTFIX)) {
             sourceWriter.write(writeCopierClass(processorElement));
         } catch (IOException e) {
             messager.printMessage(Diagnostic.Kind.ERROR, "could not generate class");
@@ -66,6 +45,7 @@ public class CopierAnnotationProcessor extends AbstractProcessor {
 
     private String writeCopierClass(ProcessorElement processorElement) {
         return writePackage(processorElement.elementPackage()) +
+                imports(processorElement)+
                 writeClassName(processorElement.simpleName()) +
                 writeCopyMethodSignature(processorElement.simpleName()) +
                 writeThrowsDeclaration() +
@@ -108,14 +88,6 @@ public class CopierAnnotationProcessor extends AbstractProcessor {
         return "package " + targetPackage + ";\n\n";
     }
 
-    private Writer obtainSourceWriter(String className, String targetPackage) throws IOException {
-        return createSourceFile(className, targetPackage).openWriter();
-    }
-
-    private JavaFileObject createSourceFile(String className, String targetPackage) throws IOException {
-        return filer.createSourceFile(targetPackage + "." + className + FieldsCopyStatementGenerator.COPIER_POSTFIX);
-    }
-
     private String writeCopyFieldsStatements(TypeElement annotatedClassElement) {
         StringBuilder sb = new StringBuilder();
         generatedCopStatements(annotatedClassElement, sb);
@@ -123,8 +95,7 @@ public class CopierAnnotationProcessor extends AbstractProcessor {
     }
 
     private void generatedCopStatements(TypeElement annotatedClassElement, StringBuilder sb) {
-        annotatedClassElement.getEnclosedElements().stream()
-                .filter(element -> element.getKind() == ElementKind.FIELD && notIgnored(element))
+        new ProcessorElement(annotatedClassElement).fieldsStream().filter(element -> notIgnored(element))
                 .forEach(element -> sb.append(FieldCopyStatementFactory.getGenerator(annotatedClassElement, element)
                         .generate(element)));
     }
